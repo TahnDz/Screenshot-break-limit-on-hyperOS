@@ -32,11 +32,18 @@ jobs:
       - name: Build release APK
         run: ./gradlew --no-daemon --stacktrace assembleRelease
 
+      - name: Rename APK
+        run: |
+          mkdir -p dist
+          for f in app/build/outputs/apk/release/*.apk; do
+            cp "$f" "dist/LongShotLimit-${GITHUB_REF_NAME}.apk"
+          done
+
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: LongShotLimit-release
-          path: app/build/outputs/apk/release/*.apk
+          path: dist/*.apk
           if-no-files-found: error
 
   release:
