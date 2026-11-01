@@ -1,0 +1,2 @@
+-keep class com.tahndz.miuilongshot.MainHook { *; }
+-keep class de.robv.android.xposed.** { *; }

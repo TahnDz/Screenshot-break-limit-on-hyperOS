@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Long Shot Limit</string>
+    <string name="xposed_description">Bo gioi han 20k pixel cua anh dai + tang toc do cuon (HyperOS/MIUI Screenshot)</string>
+
+    <string name="lbl_enabled">Bat module</string>
+    <string name="lbl_limit_mode">Gioi han chieu cao anh dai</string>
+    <string name="mode_screens">Theo so man hinh (mac dinh cua HyperOS: 8)</string>
+    <string name="mode_px">Theo so pixel</string>
+    <string name="mode_unlimited">Khong gioi han</string>
+    <string name="lbl_screens">So man hinh toi da (1 - 12)</string>
+    <string name="lbl_px">Chieu cao toi da (pixel)</string>
+    <string name="lbl_scroll_ms">Thoi gian 1 lan cuon (ms, mac dinh 350)</string>
+    <string name="lbl_delay_ms">Do tre chup sau khi cuon (ms, mac dinh 650)</string>
+    <string name="lbl_swipe">He so buoc cuon (1.0 = goc)</string>
+    <string name="lbl_fling">He so toc do luot xem anh dai</string>
+    <string name="lbl_downscale">Tu thu nho khi bitmap qua lon</string>
+    <string name="lbl_max_bmp">Chieu cao bitmap toi da sau khi thu nho</string>
+    <string name="btn_save">Luu cau hinh</string>
+    <string name="msg_saved">Da luu. Hay mo lai app Screenshot (MIUI) de ap dung.</string>
+    <string name="hint_restart">Sau khi luu, hay mo lai app "Man hinh chup" (com.miui.screenshot) de cau hinh co hieu luc.</string>
+</resources>
